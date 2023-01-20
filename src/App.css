@@ -1,38 +1,178 @@
-.App {
-  text-align: center;
+.DashBoard{
+  display: grid;
+  grid-template-columns: 0.3fr 3fr;
+  grid-auto-rows: 1500px;
+  height: 100%;
+}
+.right-components{
+  background-color: #4e73df ;
+  
+}
+.left-components{
+background-color: #f8f9fc ;
+}
+.card-data{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  grid-gap:10px;
+  margin-left: 10px;
+
+}
+.card-1{
+  background-color: white;
+  padding: 10px;
+}
+.card-2{
+  background-color: white;
+  padding: 10px;
+}
+.card-3{
+  padding: 10px;
+  background-color: white;
+}
+.card-4{
+  padding: 10px;
+  background-color: white;
+}
+.earning-monthly{
+  color: #4e73df;
+  
+}
+.earning-anu{
+  color: #1cc88a;
+}
+.task{
+  color: #36b9cc;
+}
+.pending{
+  color: #36b9cc;
+}
+.h3-progress{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.card-design-log{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.chart-style{
+  width: 1000px;
+  margin: 40px;
+  padding: 20px;
+  padding-left: 20px;
+  background-color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.pie-chart{
+  width: 500px;
+  background-color: white;
+  margin-top: 30px;
+  padding: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.charts-design{
+  margin-right: 50px;
+  display: flex;
+  justify-content: space-between;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header-bar{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  
+}
+.search-bar{
+  background-color: #4e73df;
+  border-radius: 20%;
+}
+.mail-msg{
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+}
+.upload-btn{
+  display: flex;
+  justify-content: space-between;
+}
+.jow-kuru{
+  display: flex;
+}
+.right-data{
+  background-color: #4e73df;
+  color: white;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  margin: 10px;
+  height: 600px;
+  padding: 20px;
+}
+
+.near-pro{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}.near-project{
+  background-color: white;
+  max-width: 600px;
+  height: 200px;
+  margin: 100px;
+  padding: 20px;
+}
+.illu-h{
+  color:#4e73df;
+
+}
+.pro-ject{
+  width: 50%;
+  background-color: white;
+  padding: 30px;
+}
+.flex-pro{
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  
+
+}
+.flex-pros{
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+}
+.pro-per{
+  color: #8589a4;
+
+}
+.pro-name-sty-1{
+  margin-right: 500px;
+  color: #8589a4;
+}
+.pro-name-sty-2{
+  color: #8589a4;
+  margin-right: 735px;
+}
+.pro-name-sty-3{
+  color: #8589a4;
+  margin-right: 693px;
+}
+.pro-name-sty-4{
+  color: #8589a4;
+  margin-right: 730px;
+}
+.pro-name-sty-5{
+  color: #8589a4;
+  margin-right: 730px;
 }
 
-.App-link {
-  color: #61dafb;
+.pro-sty{
+  margin-left: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pro-colo{
+  color: #4e73df;
 }
