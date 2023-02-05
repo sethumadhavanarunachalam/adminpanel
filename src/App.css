@@ -11,13 +11,24 @@
 .left-components{
 background-color: #f8f9fc ;
 }
+.cus-comp{
+  background-color: #f8f9fc ;
+
+}
 .card-data{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr ;
   grid-gap:10px;
   margin-left: 10px;
-
+  
 }
+/* .card-data-cuscom{
+  background-color: #f8f9fc ;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  grid-gap:10px;
+  margin-left: 10px;
+} */
 .card-1{
   background-color: white;
   padding: 10px;
@@ -79,7 +90,7 @@ justify-content: space-between;
 }
 .header-bar{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
   justify-content: center;
   align-items: center;
   margin-top: 30px;
@@ -101,17 +112,28 @@ justify-content: space-between;
 .jow-kuru{
   display: flex;
 }
+
 .right-data{
   background-color: #4e73df;
   color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 10px;
-  height: 600px;
-  padding: 20px;
-}
 
+  
+  padding: 20px;
+  height: 800px;
+}
+/* .side-btn-sty{
+  height: 1200px;
+} */
+.side-bar{
+  /* margin: 10px; */
+  width: 20%;
+}
+.app-sty{
+  display: flex;
+}
 .near-pro{
   display: flex;
   flex-direction: row;
